@@ -18,6 +18,7 @@ namespace Betabit.Spaces.Api
         private readonly IReservationsRepository reservationsRepository;
         private readonly IReservationsService reservationsService;
 
+
         public ReservationsFunctions(
             IReservationsRepository reservationsRepository, 
             IReservationsService reservationsService)
